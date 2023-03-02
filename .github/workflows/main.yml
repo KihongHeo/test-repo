@@ -9,6 +9,9 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-latest
+    env:
+      rapid_key: ${{ secrets.RAPID_KEY }}
+      repo_key: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
 
