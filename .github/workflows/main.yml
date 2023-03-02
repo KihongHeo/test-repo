@@ -10,7 +10,7 @@ jobs:
     name: test
     runs-on: ubunu-latest
     steps:
-      - use: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: my test
         uses: KihongHeo/test-action
