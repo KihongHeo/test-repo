@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: my test
-        uses: KihongHeo/test-action@v1.4
+        uses: KihongHeo/test-action@v1.5
         id: dup_scan
         with:
           issue_num: ${{ github.event.issue.number }}
