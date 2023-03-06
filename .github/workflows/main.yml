@@ -24,6 +24,7 @@ jobs:
           repository_path_name: ${{ github.repository }}
           rapid_key: ${{ env.rapid_key }}
           repo_key: ${{ env.repo_key }}
+          threshold: 0.2
       # Use the output from the `dup_scan` step
       - name: Get the output issue number
         run: echo "The output was ${{ steps.dup_scan.outputs.dup_num }}"
