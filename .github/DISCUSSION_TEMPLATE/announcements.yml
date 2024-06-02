@@ -23,7 +23,7 @@ body:
     id: improvements
     attributes:
       label: Short Description (up to 3 sentences)
-      description: ""
+      description: "A description about suggestions to help you"
       value: |
         For me, [*the chosen concept*] means [*the prompt sentence you used to generate the picture *]".
     validations:
@@ -32,7 +32,7 @@ body:
     id: improvements
     attributes:
       label: Long Description (up to 3 sentences)
-      description: ""
+      description: "A description about suggestions to help you"
       value: |
         1.
         2.
