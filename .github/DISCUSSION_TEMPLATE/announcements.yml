@@ -6,14 +6,14 @@ body:
       value: |
         ** Upload your picture and provide the following description. **
   - type: input
-    id: has-id
+    id: name
     attributes:
       label: Your Name
       description: A description about suggestions to help you
     validations:
       required: true
   - type: input
-    id: has-id
+    id: tool
     attributes:
       label: Tool You Used
       description: A description about suggestions to help you
