@@ -1,10 +1,16 @@
-title: "Art competition"
 labels: ["Art competition"]
 body:
   - type: markdown
     attributes:
       value: |
         ** Upload your picture and provide the following description. **
+  - type: textarea
+    id: art
+    attributes:
+      label: Put your artwork here
+      description: "A description about suggestions to help you"
+    validations:
+      required: true
   - type: input
     id: name
     attributes:
