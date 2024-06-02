@@ -20,7 +20,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: improvements
+    id: short
     attributes:
       label: Short Description (up to 3 sentences)
       description: "A description about suggestions to help you"
@@ -29,7 +29,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: improvements
+    id: long
     attributes:
       label: Long Description (up to 3 sentences)
       description: "A description about suggestions to help you"
