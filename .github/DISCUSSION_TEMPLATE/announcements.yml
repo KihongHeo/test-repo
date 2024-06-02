@@ -12,14 +12,14 @@ body:
       description: A description about suggestions to help you
     validations:
       required: true
-- type: input
+  - type: input
     id: has-id
     attributes:
       label: Tool You Used
       description: A description about suggestions to help you
     validations:
       required: true
-- type: textarea
+  - type: textarea
     id: improvements
     attributes:
       label: Short Description (up to 3 sentences)
